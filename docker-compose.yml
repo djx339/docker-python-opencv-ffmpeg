@@ -1,0 +1,8 @@
+version: '2'
+services:
+  py2:
+    image: djx339/py-opencv-ffmpeg:py2-cv3
+    build:
+      context: .
+      dockerfile: Dockerfile.py2
+
