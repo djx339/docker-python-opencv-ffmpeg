@@ -1,4 +1,6 @@
 # docker-python-opencv-ffmpeg
+[![Build Status](https://travis-ci.org/djx339/docker-python-opencv-ffmpeg.svg?branch=master)](https://travis-ci.org/djx339/docker-python-opencv-ffmpeg)
+
 Docker Image for OpenCV With FFMPEG
 
 
