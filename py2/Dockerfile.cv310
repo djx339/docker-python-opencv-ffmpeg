@@ -4,26 +4,25 @@ MAINTAINER Daniel D <djx339@gmail.com>
 ENV OPENCV_VERSION 3.1.0
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
-            wget \
-            python2.7 \
-            python2.7-dev \
             build-essential \
             cmake \
             git \
-            libgtk2.0-dev \
-            pkg-config \
             libavcodec-dev \
             libavformat-dev \
-            libswscale-dev \
-            python-dev \
-            python-pip \
-            libtbb2 \
-            libtbb-dev \
+            libdc1394-22-dev \
+            libgtk2.0-dev \
+            libjasper-dev \
             libjpeg-dev \
             libpng-dev \
+            libswscale-dev \
+            libtbb-dev \
+            libtbb2 \
             libtiff-dev \
-            libjasper-dev \
-            libdc1394-22-dev \
+            pkg-config \
+            python-pip \
+            python2.7 \
+            python2.7-dev \
+            wget \
     && pip install -U pip \
     && apt-get purge -y python-pip \
     && hash -r \
