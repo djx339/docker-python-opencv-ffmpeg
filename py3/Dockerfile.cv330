@@ -33,6 +33,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && cd /tmp/opencv/build \
     && cmake -D CMAKE_BUILD_TYPE=RELEASE \
       -D BUILD_PYTHON_SUPPORT=ON \
+      -D PYTHON_DEFAULT_EXECUTABLE=$(which python3) \
       -D CMAKE_INSTALL_PREFIX=/usr/local \
       -D OPENCV_EXTRA_MODULES_PATH=/tmp/opencv_contrib/modules \
       -D BUILD_EXAMPLES=OFF \
