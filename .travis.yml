@@ -1,7 +1,14 @@
 sudo: required
 
+env:
+  - DOCKERFILE=py2/Dockerfile.300 TAG=py2-cv3.0.0
+  - DOCKERFILE=py2/Dockerfile.310 TAG=py2-cv3.1.0
+  - DOCKERFILE=py2/Dockerfile.320 TAG=py2-cv3.2.0
+  - DOCKERFILE=py2/Dockerfile.330 TAG=py2-cv3.3.0
+  - DOCKERFILE=py2/Dockerfile.340 TAG=py2-cv3.4.0
+
 services:
   - docker
 
 script:
-  - docker build -f Dockerfile.py2 -t djx339/py-opencv-ffmpeg:py2-cv3 .
+  - docker build -f ${DOCKERFILE} -t djx339/py-opencv-ffmpeg:${TAG} .

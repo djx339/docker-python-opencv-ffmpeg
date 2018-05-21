@@ -4,5 +4,5 @@ services:
     image: djx339/py-opencv-ffmpeg:py2-cv3
     build:
       context: .
-      dockerfile: Dockerfile.py2
+      dockerfile: py2/Dockerfile.cv300
 
