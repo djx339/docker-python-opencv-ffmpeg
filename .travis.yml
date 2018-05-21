@@ -6,6 +6,7 @@ env:
   - DOCKERFILE=py2/Dockerfile.cv320 TAG=py2-cv3.2.0
   - DOCKERFILE=py2/Dockerfile.cv330 TAG=py2-cv3.3.0
   - DOCKERFILE=py2/Dockerfile.cv340 TAG=py2-cv3.4.0
+  - DOCKERFILE=py3/Dockerfile.cv300 TAG=py3-cv3.0.0
 
 services:
   - docker
