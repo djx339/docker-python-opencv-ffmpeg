@@ -12,10 +12,10 @@ env:
   - DOCKERFILE=py3/Dockerfile.cv330 TAG=py3-cv3.3.0
   - DOCKERFILE=py3/Dockerfile.cv340 TAG=py3-cv3.4.0
 
-  - DOCKERFILE=py2/Dockerfile.cv300cuda8.0 TAG=py2-cv3.0.0-cuda8.0
-  - DOCKERFILE=py2/Dockerfile.cv300cuda8.0cudnn5 TAG=py2-cv3.0.0-cuda8.0-cudnn5
-  - DOCKERFILE=py2/Dockerfile.cv300cuda8.0cudnn6 TAG=py2-cv3.0.0-cuda8.0-cudnn6
-  - DOCKERFILE=py2/Dockerfile.cv300cuda8.0cudnn7 TAG=py2-cv3.0.0-cuda8.0-cudnn7
+  # - DOCKERFILE=py2/Dockerfile.cv300cuda8.0 TAG=py2-cv3.0.0-cuda8.0
+  # - DOCKERFILE=py2/Dockerfile.cv300cuda8.0cudnn5 TAG=py2-cv3.0.0-cuda8.0-cudnn5
+  # - DOCKERFILE=py2/Dockerfile.cv300cuda8.0cudnn6 TAG=py2-cv3.0.0-cuda8.0-cudnn6
+  # - DOCKERFILE=py2/Dockerfile.cv300cuda8.0cudnn7 TAG=py2-cv3.0.0-cuda8.0-cudnn7
   # - DOCKERFILE=py2/Dockerfile.cv300cuda9.0 TAG=py2-cv3.0.0-cuda9.0
   # - DOCKERFILE=py2/Dockerfile.cv300cuda9.0cudnn7 TAG=py2-cv3.0.0-cuda9.0-cudnn7
   # - DOCKERFILE=py2/Dockerfile.cv300cuda9.1 TAG=py2-cv3.0.0-cuda9.1
