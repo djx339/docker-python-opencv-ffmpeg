@@ -3,6 +3,10 @@
 
 Docker Image for OpenCV With FFMPEG
 
+Includes:
+  - Python
+  - OpenCV
+  - FFMPEG
 
 ## Versions
 
@@ -29,3 +33,11 @@ Docker Image for OpenCV With FFMPEG
 [`py3-cv3.3.0`(py3/Dockerfile.cv330)](py3/Dockerfile.cv330)
 
 [`py3-cv3.4.0`(py3/Dockerfile.cv340)](py3/Dockerfile.cv340)
+
+## Usage 
+
+```shell
+docker run -it --rm djx339/docker-python-opencv-ffmpeg:py2-cv3.1.0 python
+>>> import cv2
+>>> cv2.VideoCapture('/path/to/your/video.mp4').read()
+```
